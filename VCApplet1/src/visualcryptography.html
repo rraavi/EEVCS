@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-15"
+http-equiv="content-type">
+<title>Visual Cryptography Applet</title>
+<style type="text/css">
+body {
+background-color: #faf8e5;
+margin: 5,2,2,5;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 100%;
+}
+.button{
+background-color:lightgrey;
+border:outset;
+border-width:2px;
+color:black;
+padding:5px;
+text-decoration:none;
+font-size:xx-small;
+}
+</style>
+</head>
+<body>
+<h1>Visual Cryptography</h1>
+<p><a href="#applet">This applet</a>  UTS. Goal of this Applet 
+is to demonstrate the wide range and mightiness of the Visiual Cryptography. </p>
+<h2>So what is Visual Cryptography?</h2>
+<p>Visual cryptography was introduced by Moni Naor und 
+Adi Shamir in 1994. This new type of cryptographic scheme, 
+which is is perfectly secure, can decode concealed images without 
+any cryptographic computations by the human visual system. 
+For a example take a try of this Applet. For further information 
+on the model see </p>
+<ul>
+	<li><a href="http://www.wisdom.weizmann.ac.il/~naor/PAPERS/vis.ps" target="_blank">
+		Paper of Naor and Shamir of the EUROCRYPT 94 </a></li>
+	<li><a href="http://www.cacr.math.uwaterloo.ca/~dstinson/visual.html" target="_blank">
+		Doug Stinson's Visual Cryptography Page </a></li>
+	<li><a href="http://www.esat.kuleuven.ac.be/~rijmen/vc/" target="_blank">
+		The Visual Cryptography Project of the University of Leuven</a></li>
+</ul>
+<p>An Introduction on this topic in German language was written by Ulrike Mendel and is available 
+<a href="./seminararbeit_vkrypto.pdf" target="_blank">here</a>.</p>	
+
+<h1>How to get the applet running correctly</h1>
+<p>Using the applet you could find some strange behaviour in the application. 
+It is due to the mode of operates of Java Policy. 
+As your machine is running a java applet there are some security restrictions 
+applied for denying access to your local filesystem. If you want to use the applet
+in all its parts, you can easily call policytool program in java/bin folder and set 
+up a new policy in {HOME}\.java.policy (for windows users).
+</p>
+
+
+<h1>The Applet</h1>
+<div style="width:700;text-align:right;">
+<a href="./download.zip" class="button">download the application</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="./src.zip" class="button">download source files</a><br><br>
+</div>
+<!--<a href="./src.zip" target="_blank">source files</a>-->
+<a name="applet"></a><applet code="jb.VCApplet" archive="VCApplet.jar" width="700" height="700" border="1">
+</applet>
+
+<h1>Help</h1>
+<p>The help file is integrated in the applet. Click within the applet and press F1 to access it easily.<p>
+<h1>Version History</h1>
+<ul>
+	<li>1.1.4 first release with help</li>
+	<li>1.0 final project seminar</li>
+</ul>
+</body>
+</html>

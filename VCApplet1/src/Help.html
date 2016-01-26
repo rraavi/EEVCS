@@ -1,0 +1,124 @@
+<html>
+<head>
+<meta content="text/html; charset=ISO-8859-15"
+http-equiv="content-type">
+<title>Embedded Extended Visual Cryptography Schemes - Help</title>
+<style type="text/css">
+body {
+background-color: #faf8e5;
+margin: 5,2,2,5;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+font-size: 100%;
+}
+h4{
+margin-bottom:2px;
+}
+h5{
+margin-top:2px;
+margin-bottom:2px;
+}
+</style>
+</head>
+<body>
+<h1>Help</h1>
+<h2>Overview</h2>
+This applet was written at the JP iNFOTeCH
+Goal of this Applet is to demonstrate the wide range and
+mightiness of the Embedded Extended Visual Cryptography Schemes.<br>
+<span style="font-weight: bold;">So what is Visual Cryptography?</span><br>
+Visual cryptography was introduced by Moni Naor und Adi Shamir in 1994.
+This new type of cryptographic scheme, which is perfectly secure,
+can decode concealed images
+without any cryptographic computations by the human visual system. For
+a example take a try of this Applet.
+<h2><a name="toc">Table Of Contents</a></h2>
+<ul>
+<li><a href="#functionality">Functionality</a>
+	<ul>
+	<li><a href="#gui">Graphical User Interface</a></li>
+	<li><a href="#menu">Menu</a></li>
+	<li><a href="#toolbar">Toolbar</a></li>
+	</ul>
+</li>
+<li><a href="#credits">Credits</a></li>
+</ul>
+
+<h2><a name="functionality">Functionality</a></h2>
+This Applet offers different schemes (e.g. 2 out of n, 3 out of n, 2
+out of 2 colored, 2 out of 2 greyscaled) which are used to encode
+an image, which contains 100*100 pixel.<br>
+<h3><a name="gui">Graphical User Interface</a></h3>
+<div style="text-align:center; margin-bottom:5px;"><img src="./overview.jpg" alt="overview over applet" width="400" height="400"></div>
+The GUI is splitted into 3 sections. The top section contains the
+original image and a short description of the used scheme.
+The section in the middle includes the encrypted images. If there are
+only two transparencies, the two images are displayed. In other cases
+only one image is displayed and you get a control element for switching
+between the transparencies.
+The lower section displays the result of overlaying some encrypted
+images, whereby you can specify whith the checkboxes which images shall
+be overlayed.<br>
+Every section can be flipped by clicking on the arrow in the left upper corner.
+<br><br><a href="#toc">toc</a>
+
+<h3><a name="menu">Menu</a></h3>
+<div style="text-align:center;"><img src="./menu.jpg" alt="menu" width="320" height="16"></div>
+<h4>File</h4>
+All save and load operations support only the *.gif and *.png format.
+	<h5>Load image:</h5> opens a dialog where you can select your own image, 
+		which shall be used as input for the Visual Cryptography. Please be sure that 
+		the permissions for the Applet are set and the image has 100*100 pixel.
+	<h5>Load encrypted transparencies</h5> opens a dialog whithin you can select
+		encrypted images and load them into the Applet. Be aware that you have chosen
+		the right scheme for the images and that all images have the same correct size.
+	<h5>Save current transparency</h5> opens a dialog to save the selected transparency. 
+		A transparency is selected by left-clicking with the mouse on an image. You see this
+		by the blue border around the selected transparency. You also can select the transparency
+		of the lower section. Please be sure to have setted the right permissions.
+	<h5>Save all transparencies</h5> calls a dialog to save all transparencies.
+	<h5>Print</h5> opens a printer diaolog and prints out the current transparency.
+	<h5>Exit</h5> quits the programm.
+<h4>Mode</h4>
+enables you to switch between the different modes of the Visual Cryptography.
+	<h5>Basic 2 out of n</h5>all schemes related to 2 out of n
+	<h5>Basic 3 out of n</h5>all schemes related to 3 out of n
+	<h5>Extended modes</h5>some special features: see the description of this mode for
+		further information.
+<h4>Visual Cryptography</h4>
+	<h5>Generate encrypted transparencies</h5> starts the process of reading the original
+		image and creating the encrypted transparancies.
+<h4>Show</h4>
+enables you to show the transparency nr. xx if there are more than 2 transparencies.
+<h4>Result</h4>
+enables you to specify which transparancies should be overlayed. You can also do this in
+the lower section with the checkboxes.
+<h4>Info</h4>
+	<h5>Help</h5> shows this help file. You alternatively can press the key 'F1' to access this help.
+	<h5>About</h5> shows a short information of this applet.
+<br><br><a href="#toc">toc</a>
+
+<h3><a name="toolbar">Toolbar</a></h3>
+<div style="text-align:center; margin-bottom:5px;"><img src="./toolbar.jpg" alt="toolbar" width="400" height="29"></div>
+The toolbar contains mostly the same functions as given in the Menu. From left to right:
+	<h5>Load image</h5>
+	<h5>Load encrypted transparencies</h5>
+	<h5>Save current transparency</h5>
+	<h5>Save all transparencies</h5>
+	<h5>encrypt</h5>starts the process of generating encrypted transparencies.
+	<h5>Zoom</h5> opens a new window and displays the currently selected transparency twice as big
+		as in the normal view.
+	<h5>1,2,3,4,5</h5>enables you to select the displayed transparency. In addition to that
+		the currently displayed transparency is marked.
+	<h5>Help</h5>
+	<h5>About</h5>
+<br><a href="#toc">toc</a>
+
+<h2><a name="credits">Credits</a></h2>
+Embedded Extended Visual Cryptography Schemes<br>
+Author: JP iNFOTeCH<br>
+
+<br>
+<br>
+<br><a href="#toc">toc</a>
+</body>
+</html>
